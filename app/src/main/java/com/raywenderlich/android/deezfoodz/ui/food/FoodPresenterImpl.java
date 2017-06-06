@@ -56,7 +56,7 @@ public class FoodPresenterImpl implements FoodPresenter {
     }
 
     public FoodPresenterImpl(Context context) {
-        ((DeezFoodzApplication)context).getAppComponent().inject(this);
+        ((DeezFoodzApplication) context).getAppComponent().inject(this);
     }
 
     @Override
